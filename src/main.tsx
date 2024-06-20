@@ -4,7 +4,7 @@ import App from './App.tsx'
 import './index.css'
 import { TonConnectUIProvider } from '@tonconnect/ui-react';
 
-const manifestUrl = 'TODO';
+const manifestUrl = 'https://bijan-f.github.io/my-twa/tonconnect-manifest.json';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
